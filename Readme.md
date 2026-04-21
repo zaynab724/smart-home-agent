@@ -1,4 +1,4 @@
-# 🏠 Smart Home Knowledge-Based Agent
+# Smart Home Knowledge-Based Agent
 
 > **CSC-3309 – Fundamentals of Artificial Intelligence | Mini Project 3**
 
@@ -6,7 +6,7 @@ A knowledge-based intelligent agent that autonomously manages a smart home envir
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 The agent uses three core components:
 
@@ -16,7 +16,7 @@ The agent uses three core components:
 
 ---
 
-## 📋 Rule Set
+## Rule Set
 
 | ID | Rule | Conditions | Action | Priority |
 |----|------|-----------|--------|----------|
@@ -35,7 +35,7 @@ The agent uses three core components:
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 smart-home-agent/
@@ -53,7 +53,7 @@ smart-home-agent/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 **Requirements:** Python 3.10+
 
@@ -70,13 +70,13 @@ No dependencies to install — pure Python standard library only.
 
 ---
 
-## 🏠 Rooms Modeled
+## Rooms Modeled
 
 `living_room` · `bedroom` · `kitchen` · `bathroom` · `office`
 
 ---
 
-## 🎬 Simulation Scenarios
+## Simulation Scenarios
 
 The simulation runs 5 timesteps representing a full day:
 
@@ -90,7 +90,7 @@ The simulation runs 5 timesteps representing a full day:
 
 ---
 
-## ⚡ Conflict Resolution
+## Conflict Resolution
 
 When multiple rules could fire simultaneously, **priority-based ordering** is used:
 - Safety-critical rules (alarm, smoke — priority 10) always fire first
@@ -99,7 +99,7 @@ When multiple rules could fire simultaneously, **priority-based ordering** is us
 
 ---
 
-## 📊 Sample Output
+## Sample Output
 
 ```
 ============================================================
@@ -113,6 +113,6 @@ When multiple rules could fire simultaneously, **priority-based ordering** is us
 
 ---
 
-## 📄 License
+## License
 
 Academic project — CSC-3309, Al Akhawayn University.
