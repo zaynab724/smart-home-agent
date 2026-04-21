@@ -1,7 +1,5 @@
 # Smart Home Knowledge-Based Agent
 
-> **CSC-3309 – Fundamentals of Artificial Intelligence | Mini Project 3**
-
 A knowledge-based intelligent agent that autonomously manages a smart home environment using a **forward-chaining inference engine** and **priority-based conflict resolution**. Built entirely from scratch in Python — no external AI libraries.
 
 ---
